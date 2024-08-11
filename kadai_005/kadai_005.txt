@@ -1,0 +1,14 @@
+sasaiyuki@Yukis-MacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/sasaiyuki/Desktop/kadai_git/git_challenge/.git/
+sasaiyuki@Yukis-MacBook-Air git_challenge % git add hello_world.txt
+sasaiyuki@Yukis-MacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 06b3cfa] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+sasaiyuki@Yukis-MacBook-Air git_challenge % git add hello_world.txt
+sasaiyuki@Yukis-MacBook-Air git_challenge % git commit -m "日本語訳を追記"
+[main 38ae086] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+sasaiyuki@Yukis-MacBook-Air git_challenge % git log --oneline
+38ae086 (HEAD -> main) 日本語訳を追記
+06b3cfa hello_world.txtを追加
